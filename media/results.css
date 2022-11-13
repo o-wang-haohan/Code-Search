@@ -1,0 +1,50 @@
+*{
+    font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+}
+
+div.code-frame{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: 10px 2px;
+    border: solid 3px dimgray;
+}
+
+div.code-area{
+    padding: 5px;
+    margin: 10px;
+    border: solid 3px skyblue;
+    overflow-y: auto;
+    height: 300px;
+}
+
+div.link-area{
+    margin-left: 10px;
+}
+
+h2.page-title{
+    padding: 2px;
+    margin: 10px;
+    font-size: 24px;
+    border: solid 3px skyblue;
+    background-color: dimgray;
+}
+
+pre{
+    font-size: 14px;
+    overflow-x: auto;
+}
+
+button{
+    cursor: pointer;
+}
+
+input{
+    margin: 10px;
+    width:400px;
+    height:30px;
+    font-size: 14px;
+}
+.btn{
+    cursor: pointer;
+    font-size: 20px;
+}
