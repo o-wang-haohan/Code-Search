@@ -11,6 +11,8 @@
 3. 启动插件  
 
 * 使用vscode打开
+* 安装依赖  
+`npm install node-fetch`
 * 按F5运行代码
 * 按Ctrl+Shift+P打开命令行
 * 输入Code Search启动插件
