@@ -21,5 +21,3 @@ CodeMatcher的VSCode插件
     5. 在新的VSCode界面，按下`Ctrl+Shift+P`，输入Code Search
 
 5. 接下来就开始代码搜索之旅吧~
-
-
