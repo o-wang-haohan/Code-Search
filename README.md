@@ -1,22 +1,23 @@
 # Code-Search
-关于Code-Matcher在vscode的插件
-# 如何启动插件
-1. 得到源代码  
+CodeMatcher的VSCode插件
 
-* 克隆代码到本地  
+# CodeMatcher
+请先参考该地址安装CodeMatcher
 
-    `git https://github.com/o-wang-haohan/Code-Search.git`
-2. 启动事先部署在本地的Code-Matcher  
+`https://github.com/liuchaoss/codematcher-demo`
 
-3. 启动插件  
+# 使用指南
+1. 克隆代码到本地 `git https://github.com/o-wang-haohan/Code-Search.git`
 
-* 使用vscode打开
-* 安装并配置nodejs  
-`cmd进入命令窗口后，可通过node -v查看是否安装成功`
-* 安装依赖  
-`npm install node-fetch`
-* 按F5运行代码
-* 按Ctrl+Shift+P打开命令行
-* 输入Code Search启动插件
+2. 启动CodeMatcher  
 
+3. 下载Nodejs
 
+4. 启动插件  
+    1. 使用VSCode打开代码文件夹
+    2. 启动VSCode终端，执行`npm install node-fetch`
+    3. 修改`.vscode`下的`launch.json`文件中`runtimeExecutable`配置项为Chrome浏览器安装位置
+    4. 按F5运行代码
+    5. 在新的VSCode界面，按下`Ctrl+Shift+P`，输入Code Search
+
+5. 接下来就开始代码搜索之旅吧~
