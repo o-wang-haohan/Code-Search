@@ -12,6 +12,7 @@
 
 * 使用vscode打开
 * 安装并配置nodejs
+`cmd进入命令窗口后，可通过node -v查看是否安装成功`
 * 安装依赖  
 `npm install node-fetch`
 * 按F5运行代码
