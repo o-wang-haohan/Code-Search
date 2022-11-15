@@ -6,7 +6,7 @@ CodeMatcher的VSCode插件
 
 `https://github.com/liuchaoss/codematcher-demo`
 
-# 如何启动插件
+# 使用指南
 1. 克隆代码到本地 `git https://github.com/o-wang-haohan/Code-Search.git`
 
 2. 启动CodeMatcher  
