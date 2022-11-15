@@ -35,7 +35,7 @@
 			"type": "chrome",
 			"request": "launch",
 			"file": "${file}",
-			"runtimeExecutable": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+			"runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
 			//:这里写自己浏览器的安装路径
 			"sourceMaps": true,
 			"webRoot": "${workspaceRoot}",
