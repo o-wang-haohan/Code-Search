@@ -17,7 +17,7 @@ async function search(webView: vscode.Webview, input: string | number | string[]
 	try {
 		//console.log("here");
 		// const url = "http://47.242.133.237:5001/search/";
-		const url = "http://localhost:5000/search/<query>";
+		const url = "http://localhost:5000/search/";
 		let indexData = await fetch(url + input).then(res => res.json());
 		console.log("here");
 		const result = indexData.result;
